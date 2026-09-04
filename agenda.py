@@ -34,7 +34,7 @@ def remover_contato ():
             return
     print ("Contato nao encontrado.")
 while True:
-    print ("\n=== Agenda de Contatos ===")
+    print ("\n==== AGENDA DE CONTATOS ====")
     print ("1 - Cadastrar contato") 
     print ("2 - Listar contatos") 
     print ("3 - Buscar contato")
