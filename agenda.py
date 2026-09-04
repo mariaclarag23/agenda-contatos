@@ -26,11 +26,9 @@ def buscar_contato():
     for contato in contatos:
         if termo.lower() in contato["nome"].lower():
             print(f"{contato['nome']} - {contato['telefone']} -{contato['email']} ")
-    encontrou = True
-
-
-if not encontrou:
-    print("Nenhum contato encontrado.")
+            encontrou = True
+    if not encontrou:
+        print("Nenhum contato encontrado.")
 
 
 def remover_contato():
@@ -40,11 +38,11 @@ def remover_contato():
             contatos.remove(contato)
             print("Contato removido.")
             return
+    print("Contato nao encontrado.")
 
 
-print("Contato nao encontrado.")
 while True:
-    print("\nAgenda de Contatos")
+    print("\n==== AGENDA DE CONTATOS ====")
     print("1 - Cadastrar contato")
     print("2 - Listar contatos")
     print("3 - Buscar contato")

@@ -12,8 +12,8 @@ python agenda . py
 ```
 ## Autores
 
-Nome da Pessoa A — @mariaclarag23
-Nome da Pessoa B — @belaspeziali@gmail.com
+- Maria Clara Guimarães - @mariaclarag23
+- Isabela Speziali - @IsabelaSpeziali
 
 ## Sobre o projeto
 Projeto desenvolvido para a disciplina Projeto em Ciencia de Dados I, como atividade prática de introduçao ao GitHub (Issues, Projects, Pull Requests, Actions e Wiki) .
